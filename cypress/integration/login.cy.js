@@ -1,4 +1,6 @@
-/// <reference types="cypress" />
+const cypress = require('cypress')
+
+const perfil = require('../../fixtures/perfil.json');
 let dadosLogin
 
 context('Funcionalidade Login', () => {
